@@ -20,7 +20,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.wrapper > div.first > p.x {
+#x {
     background-color: deepskyblue;
     padding: 5px;
 }
@@ -39,11 +39,9 @@
 
 .wrapper > div.second {
     background-color: lightpink;
-    text-align: center;
 }
 
 .wrapper > div.third {
-
     background-color: lightseagreen;
 }
 
@@ -51,13 +49,18 @@
     grid-column: 3/4;
     grid-row: 2/4;
     background-color: lightcoral;
-    text-align: center;
 }
 
 .wrapper > div.fifth {
     grid-column: 4/5;
     grid-row: 2/4;
     background-color: lightslategrey;
+}
+
+.wrapper > div.fifth > section {
+    text-align: left;
+    margin-left: 25px;
+    font-size: large;
 }
 
 .wrapper > div.sixth {
@@ -73,7 +76,7 @@
     align-items: center;
 }
 
-.wrapper > div.seventh > p.y {
+#y {
     background-color: seagreen;
     padding: 5px;
 }
